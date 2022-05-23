@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+
+spring:
+  mustache:
+    expose-session-attributes: true
+
+  output:
+    ansi:
+      enabled: always
